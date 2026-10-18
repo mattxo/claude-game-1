@@ -11,3 +11,8 @@ A Godot 4.5 project targeting the web (Compatibility renderer, single-threaded b
 Set `GODOT=/path/to/godot` to use an existing install instead of downloading one.
 
 In Claude Code cloud sessions, `.claude/hooks/session-start.sh` installs Godot automatically and exports `$GODOT`.
+
+## Playing online
+
+Every push to `master` is checked, exported and deployed to GitHub Pages by `.github/workflows/deploy-web.yml`:
+https://mattxo.github.io/claude-game-1/
